@@ -27,5 +27,5 @@ class Solution:
                 if grid[i][j] == 0:
                     if dfs(i, j):
                         res += 1
-        return res
+        return res  
  
