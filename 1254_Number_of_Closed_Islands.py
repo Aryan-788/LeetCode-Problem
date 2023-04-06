@@ -28,3 +28,4 @@ class Solution:
                     if dfs(i, j):
                         res += 1
         return res
+ 
