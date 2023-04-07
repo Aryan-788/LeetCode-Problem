@@ -5,6 +5,7 @@ A move consists of walking from one land cell to another adjacent (4-directional
 
 Return the number of land cells in grid for which we cannot walk off the boundary of the grid in any number of moves.'''
 
+
 class Solution:
   WATER = 0
   LAND = 1
