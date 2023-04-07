@@ -34,5 +34,3 @@ class Solution:
         cls.sink_island(row, col + 1, grid)
       if col > 0:
         cls.sink_island(row, col - 1, grid)
-
-        
