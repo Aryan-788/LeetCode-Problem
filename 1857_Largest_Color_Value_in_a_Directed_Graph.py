@@ -9,7 +9,6 @@ A valid path in the graph is a sequence of nodes x1 -> x2 -> x3 -> ... -> xk suc
 Return the largest color value of any valid path in the given graph, or -1 if the graph contains a cycle.
 '''
 
-
 class Solution:
     def largestPathValue(self, colors: str, edges: List[List[int]]) -> int:
         n=len(colors)
