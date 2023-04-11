@@ -19,3 +19,4 @@ class Solution:
             stack.pop() if c == "*" else stack.append(c) 
         return "".join(stack)
  
+ 
