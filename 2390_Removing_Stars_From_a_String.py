@@ -18,5 +18,3 @@ class Solution:
         for c in s:
             stack.pop() if c == "*" else stack.append(c) 
         return "".join(stack)
- 
- 
