@@ -24,3 +24,5 @@ class Solution:
                 stack.append(a)
 
         return "/"+"/".join(stack) 
+
+    
