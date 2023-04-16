@@ -25,5 +25,4 @@ class Solution:
                 ans[i+1] += ans[i] * word[target[i]] %1000000007
 
         return ans[n] %1000000007
-
-       
+    
